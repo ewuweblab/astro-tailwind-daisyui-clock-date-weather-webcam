@@ -4,5 +4,9 @@ export default {
 	theme: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require("daisyui")],
+	// Daisy UI settings
+	daisyui: {
+		themes: [""],
+	},
 }
